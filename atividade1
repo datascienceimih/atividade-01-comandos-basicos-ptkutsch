@@ -1,0 +1,75 @@
+# ###############################################
+## INTEGRADOR DE PROJETO - Ciências de dados
+## Patrick Utsch
+## Atividade 01
+
+# Exercício 01 ############################################### ###
+# Execute cada um desses comandos no R e explique o que cada um faz um comentário.
+
+# Multiplica
+7 * 9
+
+# Soma
+4 + 4
+
+# Atribui o valor calculado machado
+x  <-  3 - 10
+
+# Atribui o valor calculado ay
+y  =  x + 8
+
+# Divide e mostra o resto da operacao
+20  %%  3
+
+# Tira raiz quadrada
+sqrt ( 256 )
+
+# Eleva
+4 ^ 2
+
+# Tira a raiz cúbica (ou eleva a 1/3)
+968 ^ ( 1 / 3 )
+
+# exp: exponencial de um número; log (x): calcula o log de x na base e
+exp ( 6 ) / log ( 156 )
+
+
+# Exercício 02 ############################################### ###
+# Crie dois vetores. Um vetor de nomes com nomes de pessoas que moram na casa e outro foram com as idades de cada um deles.
+
+nomes  = c ( " Patrick " , " Juliano " , " Utsch " )
+idades  = c ( 31 , 14 , 33 )
+
+
+# Exercício 03 ############################################### ###
+# Use um comando para mostrar as classes deste vetor e um comando para verificar o tamanho dos vetores.
+
+classe (nomes)
+classe ( idades )
+length(nomes)
+length(idades)
+
+# Exercício 04 ############################################### ###
+# Use um comando para anexar dois vetores como as constantes e crie um data.frame. Verifique as dimensões do seu banco de dados.
+
+dados  <- cbind.data.frame ( nomes , idades )
+dados
+dim ( dados )
+
+
+# Exercício 05 ############################################### ###
+# Com apenas um comando, crie cada um dos seguintes vetores:
+# Vetor de 1 a 20
+p  <- c ( 1 : 20 ) 
+p
+
+# Vetor de 0 a 100, inercalado a cada 5
+u<- c (seq ( de  =  1 , to  =  100 , by  =  5 ))
+u
+
+
+# Exercício 06 ############################################### ###
+# Com apenas um comando, crie cada uma das seguintes matrizes:
+
+listamatriz <- list(matrix(data=1:40,nrow=10,ncol=4), matrix(1:40, nrow = 10, ncol = 4, byrow = TRUE), matrix(data =  seq(from = 16, to = 256, by = 16), ncol = 4, nrow = 4))
+listamatriz
